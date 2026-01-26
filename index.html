@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Counter App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#333333">
+  
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-firestore-compat.js"></script>
+  
+  <script>
+    // Replace the firebaseConfig values with YOUR Firebase project info
+    const firebaseConfig = {
+        apiKey: "AIzaSyCI0hiemG6ZUOIcszhW_SJmwy1enV4zXy0",
+        authDomain: "counter-app-7f5b3.firebaseapp.com",
+        projectId: "counter-app-7f5b3",
+        storageBucket: "counter-app-7f5b3.firebasestorage.app",
+        messagingSenderId: "688973439257",
+        appId: "1:688973439257:web:56bef7285c7d162b6ce588",
+        measurementId: "G-1FN6X90V81"
+    };
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+  </script>
+</head>
+<body>
+  <h1 id="count">Count: 0</h1>
+  <button id="increment">Press me</button>
+  
+  <script src="app.js"></script>
+</body>
+</html>
