@@ -1,0 +1,24 @@
+{
+  "name": "pwa_counter_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "serve . -l 5173",
+    "start": "serve . -l 5173"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elisecode24/pwa_counter_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elisecode24/pwa_counter_app/issues"
+  },
+  "homepage": "https://github.com/elisecode24/pwa_counter_app#readme",
+  "devDependencies": {
+    "serve": "^14.2.5"
+  }
+}
